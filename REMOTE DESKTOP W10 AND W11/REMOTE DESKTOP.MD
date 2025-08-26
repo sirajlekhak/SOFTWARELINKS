@@ -85,5 +85,8 @@ In the same command prompt window (`cmd`):
     -   **Domain:** (Leave this field blank).
 5.  Save the connection and tap to connect.
 
+`netsh advfirewall firewall set rule group="remote desktop" new enable=Yes`
+
+
 ---
 **Note:** If your public IP changes (it often does for home connections), you will need to check it again on the host PC before connecting. For a permanent solution, look into **Dynamic DNS (DDNS)** services.
